@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { remontAPI, autoAPI, refAPI } from "../api";
+import { remontAPI, autoAPI, refAPI } from "../index";
 
 function formatDate(d) { return d ? new Date(d).toLocaleDateString("uk-UA") : "—"; }
 

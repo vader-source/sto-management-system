@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { autoAPI } from "../api";
+import { autoAPI } from "../index";
 import AddAutoModal from "../components/AddAutoModal";
 
 export default function AutoPage() {

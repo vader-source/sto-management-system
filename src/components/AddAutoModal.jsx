@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { autoAPI, refAPI } from "../api";
+import { autoAPI, refAPI } from "../index";
 
 const EMPTY = { color_id: "", id_STO: "", mark: "", VIN_code: "", photo: "", id_vod: "" };
 

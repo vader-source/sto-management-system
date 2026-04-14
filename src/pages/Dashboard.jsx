@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { remontAPI, autoAPI } from "../api";
+import { remontAPI, autoAPI } from "../index";
 import AddAutoModal from "../components/AddAutoModal";
 
 function formatDate(d) {
