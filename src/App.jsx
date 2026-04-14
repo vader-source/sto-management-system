@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import AutoPage from "./pages/AutoPage";
 import RemontPage from "./pages/RemontPage";
-import "./styles/main.scss";
+import "./main.scss";
 
 export default function App() {
   return (
